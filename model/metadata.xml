@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<edmx:Edmx Version="1.0"
+    xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
+    <edmx:DataServices
+        xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" m:DataServiceVersion="2.0">
+        <Schema Namespace="p151063trial.test.petrobras.services.Servicos"
+            xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices"
+            xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"
+            xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+            <EntityType Name="ServicosType">
+                <Key>
+                    <PropertyRef Name="ID" />
+                </Key>
+                <Property Name="ID" Type="Edm.String" Nullable="false" MaxLength="10" />
+                <Property Name="NAME" Type="Edm.String" Nullable="false" MaxLength="60" />
+                <Property Name="DESCRICAO" Type="Edm.String" Nullable="false" MaxLength="360" />
+                <Property Name="TELEFONE" Type="Edm.String" Nullable="false" MaxLength="120" />
+                <Property Name="ENDERECO" Type="Edm.String" Nullable="false" MaxLength="120" />
+                <Property Name="UF" Type="Edm.String" Nullable="false" MaxLength="120" />
+                <Property Name="CIDADE" Type="Edm.String" Nullable="false" MaxLength="120" />
+                <Property Name="LOCALLNG" Type="Edm.String" MaxLength="20" />
+                <Property Name="LOCALLAT" Type="Edm.String" MaxLength="20" />
+                <NavigationProperty Name="ServicosValoracoesNavegacao" Relationship="p151063trial.test.petrobras.services.Servicos.ServicosValoracoesType" FromRole="ServicosPrincipal" ToRole="ValoracoesDependent" />
+                <NavigationProperty Name="ServicosAreasNavegacao" Relationship="p151063trial.test.petrobras.services.Servicos.ServicosAreasType" FromRole="ServicosPrincipal" ToRole="AreasDependent" />
+            </EntityType>
+            <EntityType Name="AreasType">
+                <Key>
+                    <PropertyRef Name="IDAREA" />
+                </Key>
+                <Property Name="IDAREA" Type="Edm.Byte" Nullable="false" />
+                <Property Name="AREA" Type="Edm.String" Nullable="false" MaxLength="100" />
+                <Property Name="DESCRICAO" Type="Edm.String" Nullable="false" MaxLength="210" />
+            </EntityType>
+            <EntityType Name="FavoriosType">
+                <Key>
+                    <PropertyRef Name="IDUSUARIO" />
+                    <PropertyRef Name="IDSERVICO" />
+                </Key>
+                <Property Name="IDUSUARIO" Type="Edm.String" Nullable="false" MaxLength="50" />
+                <Property Name="IDSERVICO" Type="Edm.String" Nullable="false" MaxLength="10" />
+            </EntityType>
+            <EntityType Name="ValoracoesType">
+                <Key>
+                    <PropertyRef Name="AVG" />
+                </Key>
+                <Property Name="AVG" Type="Edm.String" Nullable="false" MaxLength="2147483647" />
+                <Property Name="IDVALORACAO" Type="Edm.Double" Nullable="false" />
+                <Property Name="IDUSUARIO" Type="Edm.String" MaxLength="50" />
+                <Property Name="IDSERVICO" Type="Edm.String" MaxLength="10" />
+                <Property Name="OBSERVACOES" Type="Edm.String" MaxLength="550" />
+                <Property Name="NOTA" Type="Edm.Decimal" Nullable="false" Precision="34" />
+            </EntityType>
+            <Association Name="ServicosValoracoesType">
+                <End Type="p151063trial.test.petrobras.services.Servicos.ServicosType" Role="ServicosPrincipal" Multiplicity="1"/>
+                <End Type="p151063trial.test.petrobras.services.Servicos.ValoracoesType" Role="ValoracoesDependent" Multiplicity="*"/>
+                <ReferentialConstraint>
+                    <Principal Role="ServicosPrincipal">
+                        <PropertyRef Name="ID"/>
+                    </Principal>
+                    <Dependent Role="ValoracoesDependent">
+                        <PropertyRef Name="IDSERVICO"/>
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <Association Name="ServicosAreasType">
+                <End Type="p151063trial.test.petrobras.services.Servicos.ServicosType" Role="ServicosPrincipal" Multiplicity="*"/>
+                <End Type="p151063trial.test.petrobras.services.Servicos.AreasType" Role="AreasDependent" Multiplicity="*"/>
+            </Association>
+            <EntityContainer Name="Servicos" m:IsDefaultEntityContainer="true">
+                <EntitySet Name="Servicos" EntityType="p151063trial.test.petrobras.services.Servicos.ServicosType" />
+                <EntitySet Name="Areas" EntityType="p151063trial.test.petrobras.services.Servicos.AreasType" />
+                <EntitySet Name="Favorios" EntityType="p151063trial.test.petrobras.services.Servicos.FavoriosType" />
+                <EntitySet Name="Valoracoes" EntityType="p151063trial.test.petrobras.services.Servicos.ValoracoesType" />
+                <AssociationSet Name="ServicosValoracoes" Association="p151063trial.test.petrobras.services.Servicos.ServicosValoracoesType">
+                    <End Role="ServicosPrincipal" EntitySet="Servicos"/>
+                    <End Role="ValoracoesDependent" EntitySet="Valoracoes"/>
+                </AssociationSet>
+                <AssociationSet Name="ServicosAreas" Association="p151063trial.test.petrobras.services.Servicos.ServicosAreasType">
+                    <End Role="ServicosPrincipal" EntitySet="Servicos"/>
+                    <End Role="AreasDependent" EntitySet="Areas"/>
+                </AssociationSet>
+            </EntityContainer>
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>
