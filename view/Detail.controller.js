@@ -144,5 +144,32 @@ sap.ui.core.mvc.Controller.extend("com.test.view.Detail", {
 			this._oActionSheet.destroy();
 			this._oActionSheet = null;
 		}
-	}
+	},
+	
+	/******************************************************************************************************************
+	 *
+	 * 
+	 *						FUNCÇÕES CUSTOM
+	 * 
+	 * 
+	 * *******************************************************************************************************************/
+	 
+	 clickFav: function(e){
+	 	var msg="";
+	 	if(e.getSource().getValue()==0){
+	 		msg="Remover como Favorito";
+	 		e.getSource().setValue(0);
+	 	}else{
+	 		msg="Adicionar como Favorito";
+	 		
+	 	}
+		sap.m.MessageToast.show(msg +" Para el usuário " + this.getUserName());
+	 },
+	 getUserName: function() {
+	 	var oView = this.getView();
+    	var model = oView.getModel();
+    	var sUser = model.oMetadata.sUser;
+    	return sUser;
+	 }
+
 });

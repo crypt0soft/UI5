@@ -2,15 +2,14 @@
 	xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
 	<Page id="detailPage" navButtonPress="onNavBack" showNavButton="{device>/isPhone}" title="{i18n>detailTitle}">
 		<content>
+			<RatingIndicator maxValue="1" class="sapUiSmallMarginBottom" value="0"   tooltip="{i18n>Fav}" change="clickFav"/>
 			<ObjectHeader iconActive="false" id="detailHeader" introActive="false" number="{TELEFONE}" numberUnit="{CIDADE}" title="{NAME}"
 				titleActive="false">
-				<attributes id="detailAttributes">
-					<ObjectAttribute active="false" id="attribute" text="{i18n>detailText}"></ObjectAttribute>
-				</attributes>
 				<firstStatus id="detailStatus">
 					<ObjectStatus id="status" text="{DESCRICAO}"></ObjectStatus>
 				</firstStatus>
 			</ObjectHeader>
+			
 			<IconTabBar expanded="{device>/isNoPhone}" id="idIconTabBar">
 				<items id="detailsItems">
 					<IconTabFilter icon="sap-icon://hint" id="iconTabFilter1" key="selfInfo">
@@ -24,11 +23,23 @@
 									<Text id="text2" maxLines="0" text="{UF}"></Text>
 									<Label id="label3" text="ENDERECO"></Label>
 									<Text id="text3" maxLines="0" text="{ENDERECO}"></Text>
+									<Table id="dadosVooFragment" items="{ServicosAreasNavegacao}" noDataText="{i18n>mensagemSemAreas}" >
+        								<columns>
+            								<Column minScreenWidth="Tablet" demandPopin="true" hAlign="Left">
+                								<header><Label text="Area"/></header>
+            								</Column>
+            							</columns>
+        									<ColumnListItem>
+            									<Text text="{ServicosAreasNavegacao>AREA}"/>
+    		        						</ColumnListItem>
+    								</Table>
 									<core:ExtensionPoint name="extIconTabFilterForm1"/>
 								</f:content>
 							</f:SimpleForm>
+							
 						</content>
 					</IconTabFilter>
+					<!--
 					<IconTabFilter icon="sap-icon://enter-more" id="iconTabFilter2" key="">
 						<content>
 							<f:SimpleForm columnsL="1" editable="false" emptySpanL="4" emptySpanM="4" id="iconTabFilter2form" labelSpanL="3" labelSpanM="3"
@@ -45,6 +56,7 @@
 							</f:SimpleForm>
 						</content>
 					</IconTabFilter>
+					-->
 					<core:ExtensionPoint name="extIconTabFilter"/>
 				</items>
 			</IconTabBar>
@@ -53,8 +65,6 @@
 		<footer id="detailFooter">
 			<Toolbar id="detailToolbar">
 				<content>
-					<ToolbarSpacer id="toolbarSpacer"></ToolbarSpacer>
-					<Button icon="sap-icon://action" id="actionButton" press="openActionSheet"></Button>
 				</content>
 			</Toolbar>
 		</footer>

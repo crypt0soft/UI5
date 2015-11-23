@@ -1,0 +1,71 @@
+[{
+	"IDUSUARIO": "IDUSUARIO 1",
+	"IDSERVICO": "ID 1",
+	"__metadata": {
+		"uri": "Favorios(IDUSUARIO='IDUSUARIO 1',IDSERVICO='IDSERVICO 1')",
+		"type": "p151063trial.test.petrobras.services.Servicos.FavoriosType"
+	}
+}, {
+	"IDUSUARIO": "IDUSUARIO 1",
+	"IDSERVICO": "ID 2",
+	"__metadata": {
+		"uri": "Favorios(IDUSUARIO='IDUSUARIO 2',IDSERVICO='IDSERVICO 2')",
+		"type": "p151063trial.test.petrobras.services.Servicos.FavoriosType"
+	}
+}, {
+	"IDUSUARIO": "p151063",
+	"IDSERVICO": "ID 1",
+	"__metadata": {
+		"uri": "Favorios(IDUSUARIO='IDUSUARIO 3',IDSERVICO='IDSERVICO 3')",
+		"type": "p151063trial.test.petrobras.services.Servicos.FavoriosType"
+	}
+}, {
+	"IDUSUARIO": "",
+	"IDSERVICO": "",
+	"__metadata": {
+		"uri": "Favorios(IDUSUARIO='IDUSUARIO 4',IDSERVICO='IDSERVICO 4')",
+		"type": "p151063trial.test.petrobras.services.Servicos.FavoriosType"
+	}
+}, {
+	"IDUSUARIO": "IDUSUARIO 5",
+	"IDSERVICO": "IDSERVICO 5",
+	"__metadata": {
+		"uri": "Favorios(IDUSUARIO='IDUSUARIO 5',IDSERVICO='IDSERVICO 5')",
+		"type": "p151063trial.test.petrobras.services.Servicos.FavoriosType"
+	}
+}, {
+	"IDUSUARIO": "IDUSUARIO 6",
+	"IDSERVICO": "IDSERVICO 6",
+	"__metadata": {
+		"uri": "Favorios(IDUSUARIO='IDUSUARIO 6',IDSERVICO='IDSERVICO 6')",
+		"type": "p151063trial.test.petrobras.services.Servicos.FavoriosType"
+	}
+}, {
+	"IDUSUARIO": "IDUSUARIO 7",
+	"IDSERVICO": "IDSERVICO 7",
+	"__metadata": {
+		"uri": "Favorios(IDUSUARIO='IDUSUARIO 7',IDSERVICO='IDSERVICO 7')",
+		"type": "p151063trial.test.petrobras.services.Servicos.FavoriosType"
+	}
+}, {
+	"IDUSUARIO": "IDUSUARIO 8",
+	"IDSERVICO": "IDSERVICO 8",
+	"__metadata": {
+		"uri": "Favorios(IDUSUARIO='IDUSUARIO 8',IDSERVICO='IDSERVICO 8')",
+		"type": "p151063trial.test.petrobras.services.Servicos.FavoriosType"
+	}
+}, {
+	"IDUSUARIO": "IDUSUARIO 9",
+	"IDSERVICO": "IDSERVICO 9",
+	"__metadata": {
+		"uri": "Favorios(IDUSUARIO='IDUSUARIO 9',IDSERVICO='IDSERVICO 9')",
+		"type": "p151063trial.test.petrobras.services.Servicos.FavoriosType"
+	}
+}, {
+	"IDUSUARIO": "IDUSUARIO 10",
+	"IDSERVICO": "IDSERVICO 10",
+	"__metadata": {
+		"uri": "Favorios(IDUSUARIO='IDUSUARIO 10',IDSERVICO='IDSERVICO 10')",
+		"type": "p151063trial.test.petrobras.services.Servicos.FavoriosType"
+	}
+}]

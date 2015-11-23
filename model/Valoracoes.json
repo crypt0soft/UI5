@@ -1,0 +1,111 @@
+[{
+	"AVG": "AVG 1",
+	"IDVALORACAO": 3.0347031983546913,
+	"IDUSUARIO": "IDUSUARIO 1",
+	"IDSERVICO": "IDSERVICO 1",
+	"OBSERVACOES": "OBSERVACOES 1",
+	"NOTA": 6376.79,
+	"__metadata": {
+		"uri": "Valoracoes('AVG 1')",
+		"type": "p151063trial.test.petrobras.services.Servicos.ValoracoesType"
+	}
+}, {
+	"AVG": "AVG 2",
+	"IDVALORACAO": 1.7973489873111248,
+	"IDUSUARIO": "IDUSUARIO 2",
+	"IDSERVICO": "IDSERVICO 2",
+	"OBSERVACOES": "OBSERVACOES 2",
+	"NOTA": 7664.06,
+	"__metadata": {
+		"uri": "Valoracoes('AVG 2')",
+		"type": "p151063trial.test.petrobras.services.Servicos.ValoracoesType"
+	}
+}, {
+	"AVG": "AVG 3",
+	"IDVALORACAO": 2.9910479788668454,
+	"IDUSUARIO": "IDUSUARIO 3",
+	"IDSERVICO": "IDSERVICO 3",
+	"OBSERVACOES": "OBSERVACOES 3",
+	"NOTA": 340.31,
+	"__metadata": {
+		"uri": "Valoracoes('AVG 3')",
+		"type": "p151063trial.test.petrobras.services.Servicos.ValoracoesType"
+	}
+}, {
+	"AVG": "AVG 4",
+	"IDVALORACAO": 5.908976320642978,
+	"IDUSUARIO": "IDUSUARIO 4",
+	"IDSERVICO": "IDSERVICO 4",
+	"OBSERVACOES": "OBSERVACOES 4",
+	"NOTA": 8751.68,
+	"__metadata": {
+		"uri": "Valoracoes('AVG 4')",
+		"type": "p151063trial.test.petrobras.services.Servicos.ValoracoesType"
+	}
+}, {
+	"AVG": "AVG 5",
+	"IDVALORACAO": 4.38842557836324,
+	"IDUSUARIO": "IDUSUARIO 5",
+	"IDSERVICO": "IDSERVICO 5",
+	"OBSERVACOES": "OBSERVACOES 5",
+	"NOTA": 3008.67,
+	"__metadata": {
+		"uri": "Valoracoes('AVG 5')",
+		"type": "p151063trial.test.petrobras.services.Servicos.ValoracoesType"
+	}
+}, {
+	"AVG": "AVG 6",
+	"IDVALORACAO": 5.8224840625189245,
+	"IDUSUARIO": "IDUSUARIO 6",
+	"IDSERVICO": "IDSERVICO 6",
+	"OBSERVACOES": "OBSERVACOES 6",
+	"NOTA": 9578.34,
+	"__metadata": {
+		"uri": "Valoracoes('AVG 6')",
+		"type": "p151063trial.test.petrobras.services.Servicos.ValoracoesType"
+	}
+}, {
+	"AVG": "AVG 7",
+	"IDVALORACAO": 7.396504220087081,
+	"IDUSUARIO": "IDUSUARIO 7",
+	"IDSERVICO": "IDSERVICO 7",
+	"OBSERVACOES": "OBSERVACOES 7",
+	"NOTA": 9597.75,
+	"__metadata": {
+		"uri": "Valoracoes('AVG 7')",
+		"type": "p151063trial.test.petrobras.services.Servicos.ValoracoesType"
+	}
+}, {
+	"AVG": "AVG 8",
+	"IDVALORACAO": 7.226770808920264,
+	"IDUSUARIO": "IDUSUARIO 8",
+	"IDSERVICO": "IDSERVICO 8",
+	"OBSERVACOES": "OBSERVACOES 8",
+	"NOTA": 313.5,
+	"__metadata": {
+		"uri": "Valoracoes('AVG 8')",
+		"type": "p151063trial.test.petrobras.services.Servicos.ValoracoesType"
+	}
+}, {
+	"AVG": "AVG 9",
+	"IDVALORACAO": 2.8702661697752774,
+	"IDUSUARIO": "IDUSUARIO 9",
+	"IDSERVICO": "IDSERVICO 9",
+	"OBSERVACOES": "OBSERVACOES 9",
+	"NOTA": 9399.58,
+	"__metadata": {
+		"uri": "Valoracoes('AVG 9')",
+		"type": "p151063trial.test.petrobras.services.Servicos.ValoracoesType"
+	}
+}, {
+	"AVG": "AVG 10",
+	"IDVALORACAO": 4.976331409998238,
+	"IDUSUARIO": "IDUSUARIO 10",
+	"IDSERVICO": "IDSERVICO 10",
+	"OBSERVACOES": "OBSERVACOES 10",
+	"NOTA": 3405.02,
+	"__metadata": {
+		"uri": "Valoracoes('AVG 10')",
+		"type": "p151063trial.test.petrobras.services.Servicos.ValoracoesType"
+	}
+}]

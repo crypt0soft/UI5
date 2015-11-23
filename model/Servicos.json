@@ -1,0 +1,241 @@
+[{
+	"ID": "ID 1",
+	"NAME": "NAME 1",
+	"DESCRICAO": "DESCRICAO 1",
+	"TELEFONE": "TELEFONE 1",
+	"ENDERECO": "ENDERECO 1",
+	"UF": "UF 1",
+	"CIDADE": "CIDADE 1",
+	"LOCALLNG": "LOCALLNG 1",
+	"LOCALLAT": "LOCALLAT 1",
+	"__metadata": {
+		"uri": "Servicos('ID 1')",
+		"type": "p151063trial.test.petrobras.services.Servicos.ServicosType"
+	},
+	"ServicosValoracoesNavegacao": {
+		"__deferred": {
+			"uri": "Servicos('ID 1')/ServicosValoracoesNavegacao"
+		}
+	},
+	"ServicosAreasNavegacao": {
+		"__deferred": {
+			"uri": "Servicos('ID 1')/ServicosAreasNavegacao"
+		}
+	}
+}, {
+	"ID": "ID 2",
+	"NAME": "NAME 2",
+	"DESCRICAO": "DESCRICAO 2",
+	"TELEFONE": "TELEFONE 2",
+	"ENDERECO": "ENDERECO 2",
+	"UF": "UF 2",
+	"CIDADE": "CIDADE 2",
+	"LOCALLNG": "LOCALLNG 2",
+	"LOCALLAT": "LOCALLAT 2",
+	"__metadata": {
+		"uri": "Servicos('ID 2')",
+		"type": "p151063trial.test.petrobras.services.Servicos.ServicosType"
+	},
+	"ServicosValoracoesNavegacao": {
+		"__deferred": {
+			"uri": "Servicos('ID 2')/ServicosValoracoesNavegacao"
+		}
+	},
+	"ServicosAreasNavegacao": {
+		"__deferred": {
+			"uri": "Servicos('ID 2')/ServicosAreasNavegacao"
+		}
+	}
+}, {
+	"ID": "ID 3",
+	"NAME": "NAME 3",
+	"DESCRICAO": "DESCRICAO 3",
+	"TELEFONE": "TELEFONE 3",
+	"ENDERECO": "ENDERECO 3",
+	"UF": "UF 3",
+	"CIDADE": "CIDADE 3",
+	"LOCALLNG": "LOCALLNG 3",
+	"LOCALLAT": "LOCALLAT 3",
+	"__metadata": {
+		"uri": "Servicos('ID 3')",
+		"type": "p151063trial.test.petrobras.services.Servicos.ServicosType"
+	},
+	"ServicosValoracoesNavegacao": {
+		"__deferred": {
+			"uri": "Servicos('ID 3')/ServicosValoracoesNavegacao"
+		}
+	},
+	"ServicosAreasNavegacao": {
+		"__deferred": {
+			"uri": "Servicos('ID 3')/ServicosAreasNavegacao"
+		}
+	}
+}, {
+	"ID": "ID 4",
+	"NAME": "NAME 4",
+	"DESCRICAO": "DESCRICAO 4",
+	"TELEFONE": "TELEFONE 4",
+	"ENDERECO": "ENDERECO 4",
+	"UF": "UF 4",
+	"CIDADE": "CIDADE 4",
+	"LOCALLNG": "LOCALLNG 4",
+	"LOCALLAT": "LOCALLAT 4",
+	"__metadata": {
+		"uri": "Servicos('ID 4')",
+		"type": "p151063trial.test.petrobras.services.Servicos.ServicosType"
+	},
+	"ServicosValoracoesNavegacao": {
+		"__deferred": {
+			"uri": "Servicos('ID 4')/ServicosValoracoesNavegacao"
+		}
+	},
+	"ServicosAreasNavegacao": {
+		"__deferred": {
+			"uri": "Servicos('ID 4')/ServicosAreasNavegacao"
+		}
+	}
+}, {
+	"ID": "ID 5",
+	"NAME": "NAME 5",
+	"DESCRICAO": "DESCRICAO 5",
+	"TELEFONE": "TELEFONE 5",
+	"ENDERECO": "ENDERECO 5",
+	"UF": "UF 5",
+	"CIDADE": "CIDADE 5",
+	"LOCALLNG": "LOCALLNG 5",
+	"LOCALLAT": "LOCALLAT 5",
+	"__metadata": {
+		"uri": "Servicos('ID 5')",
+		"type": "p151063trial.test.petrobras.services.Servicos.ServicosType"
+	},
+	"ServicosValoracoesNavegacao": {
+		"__deferred": {
+			"uri": "Servicos('ID 5')/ServicosValoracoesNavegacao"
+		}
+	},
+	"ServicosAreasNavegacao": {
+		"__deferred": {
+			"uri": "Servicos('ID 5')/ServicosAreasNavegacao"
+		}
+	}
+}, {
+	"ID": "ID 6",
+	"NAME": "NAME 6",
+	"DESCRICAO": "DESCRICAO 6",
+	"TELEFONE": "TELEFONE 6",
+	"ENDERECO": "ENDERECO 6",
+	"UF": "UF 6",
+	"CIDADE": "CIDADE 6",
+	"LOCALLNG": "LOCALLNG 6",
+	"LOCALLAT": "LOCALLAT 6",
+	"__metadata": {
+		"uri": "Servicos('ID 6')",
+		"type": "p151063trial.test.petrobras.services.Servicos.ServicosType"
+	},
+	"ServicosValoracoesNavegacao": {
+		"__deferred": {
+			"uri": "Servicos('ID 6')/ServicosValoracoesNavegacao"
+		}
+	},
+	"ServicosAreasNavegacao": {
+		"__deferred": {
+			"uri": "Servicos('ID 6')/ServicosAreasNavegacao"
+		}
+	}
+}, {
+	"ID": "ID 7",
+	"NAME": "NAME 7",
+	"DESCRICAO": "DESCRICAO 7",
+	"TELEFONE": "TELEFONE 7",
+	"ENDERECO": "ENDERECO 7",
+	"UF": "UF 7",
+	"CIDADE": "CIDADE 7",
+	"LOCALLNG": "LOCALLNG 7",
+	"LOCALLAT": "LOCALLAT 7",
+	"__metadata": {
+		"uri": "Servicos('ID 7')",
+		"type": "p151063trial.test.petrobras.services.Servicos.ServicosType"
+	},
+	"ServicosValoracoesNavegacao": {
+		"__deferred": {
+			"uri": "Servicos('ID 7')/ServicosValoracoesNavegacao"
+		}
+	},
+	"ServicosAreasNavegacao": {
+		"__deferred": {
+			"uri": "Servicos('ID 7')/ServicosAreasNavegacao"
+		}
+	}
+}, {
+	"ID": "ID 8",
+	"NAME": "NAME 8",
+	"DESCRICAO": "DESCRICAO 8",
+	"TELEFONE": "TELEFONE 8",
+	"ENDERECO": "ENDERECO 8",
+	"UF": "UF 8",
+	"CIDADE": "CIDADE 8",
+	"LOCALLNG": "LOCALLNG 8",
+	"LOCALLAT": "LOCALLAT 8",
+	"__metadata": {
+		"uri": "Servicos('ID 8')",
+		"type": "p151063trial.test.petrobras.services.Servicos.ServicosType"
+	},
+	"ServicosValoracoesNavegacao": {
+		"__deferred": {
+			"uri": "Servicos('ID 8')/ServicosValoracoesNavegacao"
+		}
+	},
+	"ServicosAreasNavegacao": {
+		"__deferred": {
+			"uri": "Servicos('ID 8')/ServicosAreasNavegacao"
+		}
+	}
+}, {
+	"ID": "ID 9",
+	"NAME": "NAME 9",
+	"DESCRICAO": "DESCRICAO 9",
+	"TELEFONE": "TELEFONE 9",
+	"ENDERECO": "ENDERECO 9",
+	"UF": "UF 9",
+	"CIDADE": "CIDADE 9",
+	"LOCALLNG": "LOCALLNG 9",
+	"LOCALLAT": "LOCALLAT 9",
+	"__metadata": {
+		"uri": "Servicos('ID 9')",
+		"type": "p151063trial.test.petrobras.services.Servicos.ServicosType"
+	},
+	"ServicosValoracoesNavegacao": {
+		"__deferred": {
+			"uri": "Servicos('ID 9')/ServicosValoracoesNavegacao"
+		}
+	},
+	"ServicosAreasNavegacao": {
+		"__deferred": {
+			"uri": "Servicos('ID 9')/ServicosAreasNavegacao"
+		}
+	}
+}, {
+	"ID": "ID 10",
+	"NAME": "NAME 10",
+	"DESCRICAO": "DESCRICAO 10",
+	"TELEFONE": "TELEFONE 10",
+	"ENDERECO": "ENDERECO 10",
+	"UF": "UF 10",
+	"CIDADE": "CIDADE 10",
+	"LOCALLNG": "LOCALLNG 10",
+	"LOCALLAT": "LOCALLAT 10",
+	"__metadata": {
+		"uri": "Servicos('ID 10')",
+		"type": "p151063trial.test.petrobras.services.Servicos.ServicosType"
+	},
+	"ServicosValoracoesNavegacao": {
+		"__deferred": {
+			"uri": "Servicos('ID 10')/ServicosValoracoesNavegacao"
+		}
+	},
+	"ServicosAreasNavegacao": {
+		"__deferred": {
+			"uri": "Servicos('ID 10')/ServicosAreasNavegacao"
+		}
+	}
+}]
