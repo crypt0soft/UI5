@@ -23,7 +23,7 @@
 		<footer id="masterFooter">
 			<Toolbar id="masterToolbar">
 				<content>
-					<footerbar:SettingsButton icon="sap-icon://action-settings" id="settingsButton" tooltip="Help"></footerbar:SettingsButton>
+					<Button icon="sap-icon://filter" click="openFilter" id="botaoFiltro" tooltip="Filtrar"></Button>
 				</content>
 			</Toolbar>
 		</footer>

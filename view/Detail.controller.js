@@ -170,6 +170,35 @@ sap.ui.core.mvc.Controller.extend("com.test.view.Detail", {
     	var model = oView.getModel();
     	var sUser = model.oMetadata.sUser;
     	return sUser;
-	 }
-
+	 },
+	 novaAvaliacao:function(){
+	 	sap.m.MessageToast.show("Adicionada nova Avaliação");
+	 	var i18n       = this.getView().getModel("i18n");
+	 	var dialog = new sap.m.Dialog("popUpNewAvaliacao", {
+	 												title:i18n.getProperty("NovaAvaliacao"),
+	 												type:"Message",
+	 												content:[ 
+	 													new sap.m.TextArea('confirmDialogTextarea', {
+																					width: '100%',
+																					placeholder: i18n.getProperty("descricaoOpc")
+													})],
+													beginButton: new sap.m.Button({
+                        							text:i18n.getProperty("acaoConfirmar"),
+                        							press: function() {
+                            									dialog.close();
+                        									} 
+                    								}),
+                    								endButton:   new sap.m.Button({
+                        							text:i18n.getProperty("acaoCancelar"),
+                        							press: function() {
+                            									dialog.close();
+                    			   							} 
+                    								}),
+                    								afterClose: function() {
+                        										dialog.destroy();
+                    								}
+	 	}); 
+	 	dialog.open();
+	}
+	 
 });

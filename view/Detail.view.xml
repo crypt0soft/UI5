@@ -23,7 +23,7 @@
 									<Text id="text2" maxLines="0" text="{UF}"></Text>
 									<Label id="label3" text="ENDERECO"></Label>
 									<Text id="text3" maxLines="0" text="{ENDERECO}"></Text>
-									<Table id="dadosVooFragment" items="{ServicosAreasNavegacao}" noDataText="{i18n>mensagemSemAreas}" >
+									<Table id="AreasServico" items="{/ServicosAreasNavegacao}" noDataText="{i18n>mensagemSemAreas}" >
         								<columns>
             								<Column minScreenWidth="Tablet" demandPopin="true" hAlign="Left">
                 								<header><Label text="Area"/></header>
@@ -39,6 +39,23 @@
 							
 						</content>
 					</IconTabFilter>
+					<IconTabFilter icon="sap-icon://post" id="avaliacoes" key="">
+						<content>
+							<List items="{ServicosValoracoesNavegacao}">
+								<items>
+									<ObjectListItem title="i18n>Avaliacion" number="{NOTA}">
+										<attributes>
+											<ObjectAttribute text="{IDUSUARIO}"/>
+											<ObjectAttribute text="{OBSERVACOES}"/>
+										</attributes>
+									</ObjectListItem> 
+								</items>
+							</List>
+							<Button id="btnAdicionar" type="Emphasized" text="{i18n>Nova}" press="novaAvaliacao"  icon="sap-icon://add"/>
+							
+						</content>
+					</IconTabFilter>
+					
 					<!--
 					<IconTabFilter icon="sap-icon://enter-more" id="iconTabFilter2" key="">
 						<content>

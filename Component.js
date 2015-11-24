@@ -70,10 +70,10 @@ sap.ui.core.UIComponent.extend("com.test.Component", {
 		});
 		this.setModel(i18nModel, "i18n");
 		//WebIDE
-		//var sServiceUrl = mConfig.serviceConfig.serviceUrl;
+		var sServiceUrl = mConfig.serviceConfig.serviceUrl;
 		
 		//HANA CLOUD
-		var sServiceUrl= "../../services/poWorklist.xsodata/";
+		//var sServiceUrl= "../../services/poWorklist.xsodata/";
 
 		//This code is only needed for testing the application when there is no local proxy available
 		var bIsMocked = jQuery.sap.getUriParameters().get("responderOn") === "true";
