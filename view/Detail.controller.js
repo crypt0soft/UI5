@@ -177,14 +177,31 @@ sap.ui.core.mvc.Controller.extend("com.test.view.Detail", {
 	 	var dialog = new sap.m.Dialog("popUpNewAvaliacao", {
 	 												title:i18n.getProperty("NovaAvaliacao"),
 	 												type:"Message",
+	 												contentHeight:"250px",
+	 												contentWidth:"50%",
 	 												content:[ 
-	 													new sap.m.TextArea('confirmDialogTextarea', {
+	 													new sap.m.RatingIndicator("nota", {
+																										maxValue: 5
+													}),
+	 													new sap.m.TextArea('avaliação', {
 																					width: '100%',
 																					placeholder: i18n.getProperty("descricaoOpc")
-													})],
+													}),
+														new sap.m.CheckBox("usuario", {selected:"true",
+																					   text:"Escrever como anonimo"	
+														})],
 													beginButton: new sap.m.Button({
                         							text:i18n.getProperty("acaoConfirmar"),
+                        							
                         							press: function() {
+                        										var oModel = sap.ui.getCore().getModel();
+														        console.log(oModel);
+														        var dados={
+														        	"NOTA":1,
+														        	"IDUSUARIO":"usuario",
+														        	"IDSERVICO":"01",
+														        	"OBSERVACOES":"texto"
+														        };
                             									dialog.close();
                         									} 
                     								}),
@@ -199,6 +216,18 @@ sap.ui.core.mvc.Controller.extend("com.test.view.Detail", {
                     								}
 	 	}); 
 	 	dialog.open();
+	},
+	
+	adicionarAvaliacao:function(idServico,nota,texto,usuario){
+		
+		var oModel = sap.ui.getCore().getModel();
+        console.log(oModel);
+        var dados={
+        	"NOTA":nota,
+        	"IDUSUARIO":usuario,
+        	"IDSERVICO":idServico,
+        	"OBSERVACOES":texto
+        };
 	}
 	 
 });
